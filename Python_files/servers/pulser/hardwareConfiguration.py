@@ -53,9 +53,10 @@ class hardwareConfiguration(object):
     sequenceType = None #none for not programmed, can be 'one' or 'infinite'
     collectionMode = 'Normal' #default PMT mode
     collectionTime = {'Normal':0.100,'Differential':0.100} #default counting rates
-    okDeviceID = 'Pulser2'
+    okDeviceID = 'Pulser'
     #okDeviceFile = 'photon_2015_06_10.bit'
-    okDeviceFile = 'photon_2015_7_13.bit'
+    #okDeviceFile = 'photon_2015_7_13.bit'
+    okDeviceFile = 'counters.bit'
     lineTriggerLimits = (0, 15000)#values in microseconds 
     secondPMT = False
     DAC = False

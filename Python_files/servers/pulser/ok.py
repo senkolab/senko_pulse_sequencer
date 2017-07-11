@@ -290,6 +290,19 @@ OK_PRODUCT_XEM7350K70T = _ok.OK_PRODUCT_XEM7350K70T
 OK_PRODUCT_XEM7350K160T = _ok.OK_PRODUCT_XEM7350K160T
 OK_PRODUCT_XEM7350K410T = _ok.OK_PRODUCT_XEM7350K410T
 OK_PRODUCT_XEM6310MTLX150T = _ok.OK_PRODUCT_XEM6310MTLX150T
+OK_PRODUCT_ZEM5305A2 = _ok.OK_PRODUCT_ZEM5305A2
+OK_PRODUCT_ZEM5305A7 = _ok.OK_PRODUCT_ZEM5305A7
+OK_PRODUCT_XEM7001A15 = _ok.OK_PRODUCT_XEM7001A15
+OK_PRODUCT_XEM7001A35 = _ok.OK_PRODUCT_XEM7001A35
+OK_PRODUCT_XEM7360K160T = _ok.OK_PRODUCT_XEM7360K160T
+OK_PRODUCT_XEM7360K410T = _ok.OK_PRODUCT_XEM7360K410T
+OK_PRODUCT_ZEM5310A4 = _ok.OK_PRODUCT_ZEM5310A4
+OK_PRODUCT_ZEM5310A7 = _ok.OK_PRODUCT_ZEM5310A7
+OK_PRODUCT_ZEM5370A5 = _ok.OK_PRODUCT_ZEM5370A5
+OK_PRODUCT_XEM7010A50 = _ok.OK_PRODUCT_XEM7010A50
+OK_PRODUCT_XEM7010A200 = _ok.OK_PRODUCT_XEM7010A200
+OK_PRODUCT_XEM7310A75 = _ok.OK_PRODUCT_XEM7310A75
+OK_PRODUCT_XEM7310A200 = _ok.OK_PRODUCT_XEM7310A200
 OK_PRODUCT_OEM_START = _ok.OK_PRODUCT_OEM_START
 okPRODUCT_UNKNOWN = _ok.okPRODUCT_UNKNOWN
 okPRODUCT_XEM3001V1 = _ok.okPRODUCT_XEM3001V1
@@ -323,6 +336,19 @@ okPRODUCT_XEM7350K70T = _ok.okPRODUCT_XEM7350K70T
 okPRODUCT_XEM7350K160T = _ok.okPRODUCT_XEM7350K160T
 okPRODUCT_XEM7350K410T = _ok.okPRODUCT_XEM7350K410T
 okPRODUCT_XEM6310MTLX150T = _ok.okPRODUCT_XEM6310MTLX150T
+okPRODUCT_ZEM5305A2 = _ok.okPRODUCT_ZEM5305A2
+okPRODUCT_ZEM5305A7 = _ok.okPRODUCT_ZEM5305A7
+okPRODUCT_XEM7001A15 = _ok.okPRODUCT_XEM7001A15
+okPRODUCT_XEM7001A35 = _ok.okPRODUCT_XEM7001A35
+okPRODUCT_XEM7360K160T = _ok.okPRODUCT_XEM7360K160T
+okPRODUCT_XEM7360K410T = _ok.okPRODUCT_XEM7360K410T
+okPRODUCT_ZEM5310A4 = _ok.okPRODUCT_ZEM5310A4
+okPRODUCT_ZEM5310A7 = _ok.okPRODUCT_ZEM5310A7
+okPRODUCT_ZEM5370A5 = _ok.okPRODUCT_ZEM5370A5
+okPRODUCT_XEM7010A50 = _ok.okPRODUCT_XEM7010A50
+okPRODUCT_XEM7010A200 = _ok.okPRODUCT_XEM7010A200
+okPRODUCT_XEM7310A75 = _ok.okPRODUCT_XEM7310A75
+okPRODUCT_XEM7310A200 = _ok.okPRODUCT_XEM7310A200
 okPRODUCT_OEM_START = _ok.okPRODUCT_OEM_START
 class okTRegisterEntry(_object):
     __swig_setmethods__ = {}
@@ -557,6 +583,9 @@ class okTDeviceInfo(_object):
     __swig_setmethods__["hasFMCEEPROM"] = _ok.okTDeviceInfo_hasFMCEEPROM_set
     __swig_getmethods__["hasFMCEEPROM"] = _ok.okTDeviceInfo_hasFMCEEPROM_get
     if _newclass:hasFMCEEPROM = _swig_property(_ok.okTDeviceInfo_hasFMCEEPROM_get, _ok.okTDeviceInfo_hasFMCEEPROM_set)
+    __swig_setmethods__["hasResetProfiles"] = _ok.okTDeviceInfo_hasResetProfiles_set
+    __swig_getmethods__["hasResetProfiles"] = _ok.okTDeviceInfo_hasResetProfiles_get
+    if _newclass:hasResetProfiles = _swig_property(_ok.okTDeviceInfo_hasResetProfiles_get, _ok.okTDeviceInfo_hasResetProfiles_set)
     def __init__(self): 
         this = _ok.new_okTDeviceInfo()
         try: self.this.append(this)
@@ -784,6 +813,19 @@ class okCFrontPanel(_object):
     brdXEM7350K160T = _ok.okCFrontPanel_brdXEM7350K160T
     brdXEM7350K410T = _ok.okCFrontPanel_brdXEM7350K410T
     brdXEM6310MTLX150T = _ok.okCFrontPanel_brdXEM6310MTLX150T
+    brdZEM5305A2 = _ok.okCFrontPanel_brdZEM5305A2
+    brdZEM5305A7 = _ok.okCFrontPanel_brdZEM5305A7
+    brdXEM7001A15 = _ok.okCFrontPanel_brdXEM7001A15
+    brdXEM7001A35 = _ok.okCFrontPanel_brdXEM7001A35
+    brdXEM7360K160T = _ok.okCFrontPanel_brdXEM7360K160T
+    brdXEM7360K410T = _ok.okCFrontPanel_brdXEM7360K410T
+    brdZEM5310A4 = _ok.okCFrontPanel_brdZEM5310A4
+    brdZEM5310A7 = _ok.okCFrontPanel_brdZEM5310A7
+    brdZEM5370A5 = _ok.okCFrontPanel_brdZEM5370A5
+    brdXEM7010A50 = _ok.okCFrontPanel_brdXEM7010A50
+    brdXEM7010A200 = _ok.okCFrontPanel_brdXEM7010A200
+    brdXEM7310A75 = _ok.okCFrontPanel_brdXEM7310A75
+    brdXEM7310A200 = _ok.okCFrontPanel_brdXEM7310A200
     NoError = _ok.okCFrontPanel_NoError
     Failed = _ok.okCFrontPanel_Failed
     Timeout = _ok.okCFrontPanel_Timeout
@@ -811,6 +853,9 @@ class okCFrontPanel(_object):
         except: self.this = this
     __swig_destroy__ = _ok.delete_okCFrontPanel
     __del__ = lambda self : None;
+    def Close(self): return _ok.okCFrontPanel_Close(self)
+    __swig_getmethods__["GetErrorString"] = lambda x: _ok.okCFrontPanel_GetErrorString
+    if _newclass:GetErrorString = staticmethod(_ok.okCFrontPanel_GetErrorString)
     def ActivateTriggerIn(self, *args): return _ok.okCFrontPanel_ActivateTriggerIn(self, *args)
     __swig_getmethods__["AddCustomDevice"] = lambda x: _ok.okCFrontPanel_AddCustomDevice
     if _newclass:AddCustomDevice = staticmethod(_ok.okCFrontPanel_AddCustomDevice)
@@ -878,6 +923,10 @@ class okCFrontPanel(_object):
     def WriteI2C(self, *args): return _ok.okCFrontPanel_WriteI2C(self, *args)
 okCFrontPanel_swigregister = _ok.okCFrontPanel_swigregister
 okCFrontPanel_swigregister(okCFrontPanel)
+
+def okCFrontPanel_GetErrorString(*args):
+  return _ok.okCFrontPanel_GetErrorString(*args)
+okCFrontPanel_GetErrorString = _ok.okCFrontPanel_GetErrorString
 
 def okCFrontPanel_AddCustomDevice(*args):
   return _ok.okCFrontPanel_AddCustomDevice(*args)
