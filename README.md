@@ -1,4 +1,4 @@
 # pulse_sequencer
-<center>
+<p align="center">
 <img height="50" src=shrek.jpg>
-</center>
+</p>
